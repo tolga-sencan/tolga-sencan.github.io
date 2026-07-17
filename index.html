@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pangaea Kids — Privacy Policy</title>
+<title>Pangaea Kids — Gizlilik Politikası / Privacy Policy</title>
 <style>
   :root { color-scheme: light dark; }
   body {
@@ -15,15 +15,102 @@
     body { color: #dfe7ee; background: #17202a; }
     a { color: #7fc0ff; }
     h1, h2 { color: #a4d98a; }
+    .lang-switch button { color: #dfe7ee; border-color: #4a5a6a; }
+    .lang-switch button.active { background: #3d7a2f; border-color: #3d7a2f; color: #fff; }
   }
   h1 { color: #3d7a2f; margin-bottom: 0.2rem; }
   h2 { color: #3d7a2f; margin-top: 2rem; }
   .meta { opacity: 0.7; font-size: 0.95rem; }
   ul { padding-left: 1.3rem; }
   li { margin: 0.35rem 0; }
+  .lang-switch { text-align: right; margin-bottom: 1rem; }
+  .lang-switch button {
+    font: inherit; font-size: 0.9rem; padding: 0.3rem 0.9rem; margin-left: 0.4rem;
+    background: transparent; color: #24313f; border: 1px solid #b8c4b0;
+    border-radius: 999px; cursor: pointer;
+  }
+  .lang-switch button.active { background: #3d7a2f; border-color: #3d7a2f; color: #fff; }
+  .divider { margin: 3rem 0; border: 0; border-top: 1px solid #b8c4b0; }
+  body.js section[lang="en"], body.js .divider { display: none; }
+  body.js.show-en section[lang="en"] { display: block; }
+  body.js.show-en section[lang="tr"] { display: none; }
 </style>
 </head>
 <body>
+<nav class="lang-switch" hidden>
+  <button id="btn-tr" type="button" onclick="setLang('tr')">Türkçe</button>
+  <button id="btn-en" type="button" onclick="setLang('en')">English</button>
+</nav>
+
+<section lang="tr">
+<h1>Pangaea Kids — Gizlilik Politikası</h1>
+<p class="meta">Uygulama: <strong>Pangaea Kids</strong> (Android paketi <code>com.tolga.pangaeakids</code>)<br>
+Geliştirici: Tolga Şencan &nbsp;·&nbsp; İletişim: <a href="mailto:rockoroma@gmail.com">rockoroma@gmail.com</a><br>
+Yürürlük tarihi: 7 Temmuz 2026</p>
+
+<p>Pangaea Kids, çocuklar için tasarlanmış bir dinozor yapboz oyunudur. Uygulamayı Google Play
+Aileler Politikası'na, ABD Çocukların Çevrimiçi Gizliliğini Koruma Yasası'na (COPPA) ve
+GDPR'ın çocuklara yönelik korumalarına uygun olarak geliştirdik. Kısacası:
+<strong>hiçbir kişisel bilgi toplamıyor, saklamıyor ve paylaşmıyoruz.</strong></p>
+
+<h2>1. Topladığımız bilgiler: hiçbiri</h2>
+<ul>
+  <li>Uygulamada hesap veya kayıt sistemi yoktur.</li>
+  <li>İsim, e-posta adresi, fotoğraf, kişi listesi, konum veya başka hiçbir kişisel bilgi
+      toplamıyoruz.</li>
+  <li>Uygulamada sohbet, sosyal özellik veya serbest metin girişi yoktur.</li>
+  <li>Oyun ilerlemesi (hangi yapbozların tamamlandığı) <strong>yalnızca cihazda</strong>
+      saklanır ve uygulama kaldırıldığında silinir. Hiçbir yere yüklenmez.</li>
+</ul>
+
+<h2>2. Reklamlar (Google AdMob)</h2>
+<p>Bazı dinozorlar, kısa ve açıkça işaretlenmiş bir ödüllü video izlenerek bir kez oynanabilir.
+Bu reklamlar <strong>Google AdMob</strong> tarafından gösterilir ve her zaman bir düğmeye
+basılarak başlatılır — asla otomatik olarak gösterilmez. Pangaea Kids bir çocuk uygulaması
+olduğundan AdMob'u çocuklara yönelik modda yapılandırıyoruz:</p>
+<ul>
+  <li>Reklam istekleri Google'ın <em>çocuklara yönelik muamele etiketi</em> ile yapılır
+      (COPPA uyumlu) ve izin verilen en yüksek reklam içerik derecelendirmesi
+      <strong>G</strong>'dir (tüm izleyiciler için uygun).</li>
+  <li>Reklamlar <strong>yalnızca bağlamsaldır — asla kişiselleştirilmez</strong>. Bu uygulama
+      için davranışsal reklamcılık devre dışıdır.</li>
+  <li>Uygulama cihazın <em>Reklam Kimliği</em>'ni kullanmaz ve ilgili Android iznini
+      kaldırır.</li>
+  <li>Google, reklamları sunmak ve güvenliğini sağlamak için sınırlı teknik verileri
+      (IP adresi ve cihaz türü gibi) işleyebilir. Ayrıntılar için
+      <a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a>'na ve
+      <a href="https://support.google.com/admob/answer/6128543?hl=tr">Google'ın AdMob kullanan
+      uygulamalardan gelen bilgileri nasıl kullandığına</a> bakabilirsiniz.</li>
+</ul>
+
+<h2>3. Satın almalar (Google Play)</h2>
+<p>Uygulama, tamamen <strong>Google Play Faturalandırma</strong> üzerinden yürütülen tek bir
+kalıcı satın alma ("Tüm dinozorların kilidini aç") sunar. Satın alma ekranı, yetişkinlere
+yönelik bir ebeveyn kapısının arkasındadır. Ödeme bilgilerini asla görmeyiz ve saklamayız —
+ödemeyi Google işler ve uygulamaya yalnızca kilidin açılmış olduğu bilgisini iletir. Google'ın
+ödeme verilerini nasıl işlediği için
+<a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a>'na
+bakabilirsiniz.</p>
+
+<h2>4. Çocukların gizliliği</h2>
+<p>Pangaea Kids çocuklara yöneliktir ve her kullanıcıya çocuk gibi davranır: kimseden kişisel
+veri toplanmaz, reklamlar çocuklara yönelik ve yalnızca bağlamsaldır ve yukarıda açıklanan
+mağaza sayfaları dışında uygulamadan dışarı açılan bağlantı yoktur. Hiçbir şey toplamadığımız
+için silebileceğimiz bir veri de yoktur; uygulamayı kaldırmak, cihazda kayıtlı tüm ilerlemeyi
+siler.</p>
+
+<h2>5. Bu politikadaki değişiklikler</h2>
+<p>Uygulamanın veri uygulamaları herhangi bir zamanda değişirse, değişiklik yayınlanmadan önce
+bu sayfayı ve yukarıdaki yürürlük tarihini güncelleyeceğiz.</p>
+
+<h2>6. İletişim</h2>
+<p>Sorularınız ve endişeleriniz için — ebeveynler dahil —
+<a href="mailto:rockoroma@gmail.com">rockoroma@gmail.com</a> adresine yazabilirsiniz.</p>
+</section>
+
+<hr class="divider">
+
+<section lang="en">
 <h1>Pangaea Kids — Privacy Policy</h1>
 <p class="meta">App: <strong>Pangaea Kids</strong> (Android package <code>com.tolga.pangaeakids</code>)<br>
 Developer: Tolga Şencan &nbsp;·&nbsp; Contact: <a href="mailto:rockoroma@gmail.com">rockoroma@gmail.com</a><br>
@@ -85,5 +172,22 @@ above before the change ships.</p>
 <h2>6. Contact</h2>
 <p>Questions or concerns — parents included — are welcome at
 <a href="mailto:rockoroma@gmail.com">rockoroma@gmail.com</a>.</p>
+</section>
+
+<script>
+  document.body.classList.add('js');
+  document.querySelector('.lang-switch').hidden = false;
+  function setLang(lang) {
+    document.body.classList.toggle('show-en', lang === 'en');
+    document.documentElement.lang = lang;
+    document.getElementById('btn-tr').classList.toggle('active', lang === 'tr');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    try { localStorage.setItem('pk-lang', lang); } catch (e) {}
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('pk-lang'); } catch (e) {}
+  var browserTr = (navigator.language || '').toLowerCase().indexOf('tr') === 0;
+  setLang(saved || (browserTr ? 'tr' : 'en'));
+</script>
 </body>
 </html>
